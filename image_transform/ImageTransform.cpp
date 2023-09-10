@@ -165,3 +165,4 @@ PNG watermark(PNG firstImage, PNG secondImage) {
   }
   return firstImage;
 }
+
