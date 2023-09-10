@@ -130,3 +130,4 @@ namespace uiuc {
   std::stringstream & operator<<(std::stringstream & out, PNG const & pixel);
 }
 
+
