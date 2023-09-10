@@ -1,5 +1,4 @@
 #include "../uiuc/catch/catch.hpp"
-
 #include "../ImageTransform.h"
 #include "../uiuc/PNG.h"
 #include "../uiuc/HSLAPixel.h"
@@ -110,3 +109,4 @@ TEST_CASE("watermark", "[weight=1]") {
     REQUIRE( png.getPixel(200, 25).l + 0.2 == result.getPixel(200, 25).l );
   }
 }
+
